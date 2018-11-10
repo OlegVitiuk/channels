@@ -35,6 +35,7 @@
     // Handle messages received on port2
     function onMessage(e) {
       console.log(e, 'FRAME')
+      console.log(e.data, 'FRAME')
       results.innerHTML = e.data;
     }
 

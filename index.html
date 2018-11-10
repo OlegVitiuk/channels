@@ -50,6 +50,7 @@
     // Handle messages received on port1
     function onMessage(e) {
       console.log(e, 'GET DATA IN Parent')
+      console.log(e.data, 'GET DATA IN Parent')
       output.innerHTML = e.data;
     }
   </script>
